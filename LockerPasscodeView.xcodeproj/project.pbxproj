@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA039F0026CE39A200F4FFFD /* NumberDilerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA039EFF26CE39A200F4FFFD /* NumberDilerView.swift */; };
 		AA14E5D826CE37E400B5819A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA14E5D726CE37E400B5819A /* AppDelegate.swift */; };
 		AA14E5DA26CE37E400B5819A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA14E5D926CE37E400B5819A /* SceneDelegate.swift */; };
 		AA14E5DC26CE37E400B5819A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA14E5DB26CE37E400B5819A /* ContentView.swift */; };
 		AA14E5DE26CE37E500B5819A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA14E5DD26CE37E500B5819A /* Assets.xcassets */; };
 		AA14E5E126CE37E500B5819A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA14E5E026CE37E500B5819A /* Preview Assets.xcassets */; };
 		AA14E5E426CE37E500B5819A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA14E5E226CE37E500B5819A /* LaunchScreen.storyboard */; };
+		AA14E5EC26CE37EF00B5819A /* RoundButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA14E5EB26CE37EF00B5819A /* RoundButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA039EFF26CE39A200F4FFFD /* NumberDilerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberDilerView.swift; sourceTree = "<group>"; };
 		AA14E5D426CE37E400B5819A /* LockerPasscodeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockerPasscodeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA14E5D726CE37E400B5819A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA14E5D926CE37E400B5819A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		AA14E5E026CE37E500B5819A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA14E5E326CE37E500B5819A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA14E5E526CE37E500B5819A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA14E5EB26CE37EF00B5819A /* RoundButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				AA14E5E226CE37E500B5819A /* LaunchScreen.storyboard */,
 				AA14E5E526CE37E500B5819A /* Info.plist */,
 				AA14E5DF26CE37E500B5819A /* Preview Content */,
+				AA14E5EB26CE37EF00B5819A /* RoundButtons.swift */,
+				AA039EFF26CE39A200F4FFFD /* NumberDilerView.swift */,
 			);
 			path = LockerPasscodeView;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 			files = (
 				AA14E5D826CE37E400B5819A /* AppDelegate.swift in Sources */,
 				AA14E5DA26CE37E400B5819A /* SceneDelegate.swift in Sources */,
+				AA14E5EC26CE37EF00B5819A /* RoundButtons.swift in Sources */,
 				AA14E5DC26CE37E400B5819A /* ContentView.swift in Sources */,
+				AA039F0026CE39A200F4FFFD /* NumberDilerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
