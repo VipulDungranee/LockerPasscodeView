@@ -31,7 +31,7 @@ struct ContentView: View {
             
             
             NumberDilerView(RotationState: $rotationValue, currentValue: $currentValue, circleFrame: CGRect(x: 0, y: 0, width: 350, height: 350), submitValue: $submitValue)
-            
+                        
             Spacer()
         }
         .onChange(of: currentValue, perform: { value in
